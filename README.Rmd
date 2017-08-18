@@ -1,0 +1,39 @@
+---
+output: rmarkdown::github_document
+---
+
+`jwatjars` : ...
+
+The following functions are implemented:
+
+### Installation
+
+```{r eval=FALSE}
+devtools::install_github("hrbrmstr/jwatjars")
+```
+
+```{r message=FALSE, warning=FALSE, error=FALSE, include=FALSE}
+options(width=120)
+```
+
+### Usage
+
+```{r message=FALSE, warning=FALSE, error=FALSE}
+library(jwatjars)
+
+# current verison
+packageVersion("jwatjars")
+
+```
+
+### Test Results
+
+```{r message=FALSE, warning=FALSE, error=FALSE}
+library(jwatjars)
+library(testthat)
+
+date()
+
+test_dir("tests/")
+```
+

@@ -1,0 +1,20 @@
+Package: jwatjars
+Type: Package
+Title: Java '.jar' Files for 'jwatr
+Version: 0.6.3
+Date: 2017-08-16
+Author: Bob Rudis (bob@rud.is)
+Maintainer: Bob Rudis <bob@rud.is>
+SystemRequirements: Java
+Description: By separating out 'JAR' files from 'rJava'-based packages, such packages
+   can have a lighter filesystem footprint, especially when they are likely to change 
+   at a more rapid pace than the underlying libraries they depend upon. Core library 
+   files from the 'Java Web Archive Toolkit' <https://sbforge.org/display/JWAT/JWAT> 
+   are included and the package version aligns with the underlying 'JAR' release version.
+URL: https://github.com/hrbrmstr/jwatjars
+BugReports: https://github.com/hrbrmstr/jwatjars/issues
+License: Apache License 2.0 | file LICENSE
+Depends:
+    R (>= 3.2.0),
+    rJava
+RoxygenNote: 6.0.1
